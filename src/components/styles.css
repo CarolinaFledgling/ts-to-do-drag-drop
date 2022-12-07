@@ -40,3 +40,12 @@
   box-shadow: 0 0 10px black;
   cursor: pointer;
 }
+
+.input__submit:hover {
+  background-color: rgb(255, 97, 40);
+}
+
+.input__submit:active {
+  transform: scale(0.8);
+  box-shadow: 0 0 5px black;
+}
