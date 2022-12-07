@@ -1,12 +1,16 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { InputField } from "./components/InputField/InputField";
 
-function App() {
+// React.ReactNode - this support all of the types
+
+const App: React.FC = () => {
   return (
     <div className="App">
-
+      <span className="heading">Taskify</span>
+      <InputField/>
     </div>
   );
-}
+};
 
 export default App;
