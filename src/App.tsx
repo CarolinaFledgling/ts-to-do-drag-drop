@@ -27,7 +27,7 @@ const App: React.FC = () => {
   console.log(todos);
   return (
     <div className="App">
-      <span className="heading">Taskify</span>
+      <span className="heading">TO DO LIST - practice REACT!</span>
       <InputField
         todoValue={todoText}
         setTodo={setTodoText}
